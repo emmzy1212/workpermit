@@ -1,0 +1,100 @@
+.work{
+    text-align: center;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 70px 50px 50px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* we can also call elements without classing them same as body or all other elements tag */
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px;
+    margin-left: 490px;
+    margin-right: 490px;
+    text-transform: uppercase;
+    color: white;
+}
+
+form {
+    color: white;
+}
+
+body {
+    background-color: rgb(28, 6, 48);
+}
+
+input[type=text], select {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 4px 0;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+
+.date {
+    width: 62%;
+    padding: 12px 20px;
+    margin: 4px 0;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+.address{
+    width: 27%;
+    padding: 12px 20px;
+    margin: 4px 0;
+    border-radius: 20px;
+    text-transform: uppercase;
+
+}
+
+input[type=phone], select {
+    width: 15%;
+    padding: 12px 20px;
+    margin: 4px 0;
+    border-radius: 20px;
+    text-transform: uppercase;
+
+}
+
+input[type=zipcode], select {
+    width: 15%;
+    padding: 12px 20px;
+    margin: 4px 0;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+input[type=email], select {
+    width: 15%;
+    padding: 12px 20px;
+    margin: 4px 0;
+    border-radius: 20px;
+    text-transform: uppercase;
+
+}
+
+/* this is because its a type in input so we have to indicate */
+input[type=submit] {
+    width: 20%;
+    padding: 12px 20px;
+    background-color: rgb(31, 4, 34);
+    border-radius: 20px;
+    color: white;
+
+}
+/* this is for the color reflecting in the input that is changing */
+input:hover {
+    background-color: rgb(179, 226, 11);
+    color: #fff;
+}
+/* this is for the color reflecting in the body that is changing */
+body:hover {
+    background-color: rgb(1, 28, 1);
+    color: #fff;
+}
